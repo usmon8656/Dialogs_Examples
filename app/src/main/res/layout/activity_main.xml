@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        app:cardCornerRadius="10dp"
+        android:layout_height="70dp">
+        <TextView
+            android:id="@+id/btn_alter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Alter Dialog"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="#C82D40"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        app:cardCornerRadius="10dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:id="@+id/btn_custom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Custom Dialog"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="#C82D40"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        app:cardCornerRadius="10dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:id="@+id/btn_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Fragment Dialog"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="#C82D40"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        app:cardCornerRadius="10dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:id="@+id/btn_date"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="DatePicker Dialog"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="#C82D40"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        app:cardCornerRadius="10dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:id="@+id/btn_time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TimePicker Dialog"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="#C82D40"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        app:cardCornerRadius="10dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:id="@+id/btn_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="BottomSheet Dialog"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="#C82D40"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        app:cardCornerRadius="10dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:id="@+id/btn_snack"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SnackBar Dialog"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="#C82D40"/>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
